@@ -1,0 +1,29 @@
+{
+    "backgroundColor": "black",
+    "primaryColor": "green",
+    "secondaryColor": "#4682b4",
+    "appName": "The Pocket Pantry",
+    "tagline": "From your phone, to your home. Find food pantries and soup kitchens in NYC fast.",
+    "heroimg": "./iphoneMockup.png",
+    "featuresTagline": "Check out our cool features that makes it simple to get the information you want and need!",
+    "features": [
+        {
+            "icon": "🔍",
+            "name": "Find",
+            "description": "Easily discover food pantries and soup kitchens across NYC with our comprehensive search tool. Instantly find detailed information about locations, hours, and available services tailored to your needs."
+        },
+        {
+            "icon": "🗽",
+            "name": "Borough",
+            "description": "A music streaming platform providing users with a diverse catalog of songs, personalized playlists, and features for discovering new music across various genres."
+        },
+        {
+            "icon": "🥫",
+            "name": "Dietary Restrictions",
+            "description": "Easily discover food pantries and soup kitchens across NYC with our comprehensive search tool. Instantly find detailed information about locations, hours, and available services tailored to your needs."
+        }
+    ],
+    "linkToTermsAndConditions": "",
+    "linkToPrivacyPolicy": "",
+    "linkToAppStore": ""
+}
