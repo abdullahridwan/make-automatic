@@ -16,7 +16,7 @@ export default function Main() {
             <a
               className="inline-flex items-center px-6 py-4 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent rounded-lg bg-gray-900 rounded-full"
               style={{ backgroundColor: config.primaryColor }}
-              href="https://github.com/r1/nine4-2/"
+              href={config.linkToAppStore}
             >
               <span className="justify-center">👉 Get the App</span>
             </a>
@@ -107,7 +107,7 @@ export default function Main() {
               <a
                 className="inline-flex items-center px-6 py-4 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent rounded-lg bg-gray-900 rounded-full"
                 style={{ backgroundColor: config.primaryColor }}
-                href="https://github.com/r1/nine4-2/"
+                href={config.linkToAppStore}
               >
                 <span className="justify-center">👉 Get the App</span>
               </a>
