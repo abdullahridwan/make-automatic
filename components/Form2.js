@@ -54,7 +54,7 @@ const NewsletterForm = () => {
                 />
                 <button
                     type="submit"
-                    className={`my-2 px-6 py-3 mt-2 font-medium text-white rounded-lg ${isLoading ? 'bg-gray-400' : `bg-${config.primaryColor}-600`} transition-colors`}
+                    className={`my-2 px-6 py-3 mt-2 font-medium text-white rounded-lg ${isLoading ? 'bg-gray-400' : `bg-gray-900`} transition-colors`}
                 >
                     {isLoading ? 'Signing up...' : 'Sign up'}
                 </button>
