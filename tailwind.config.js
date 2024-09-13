@@ -1,9 +1,12 @@
+const config = require("./public/config.json");
+
 module.exports = {
   purge: ["./components/**/*.js", "./pages/**/*.js"],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
+        secondary: config.primaryColor,
         gray: {
           100: "#FBFBFB",
           200: "#EAEAEA",
@@ -21,5 +24,18 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+    require('taos/plugin')
+  ],
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ],
+  content: {
+    relative: true,
+    transform: (content) => content.replace(/taos:/g, ''),
+    files: ['./src/*.{html,js}'],
+  },
 };

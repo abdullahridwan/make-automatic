@@ -4,9 +4,14 @@ import Main from "../components/Main";
 import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 import config from '../public/config.json';
+import React, { useEffect } from 'react';
+
 
 
 export default function Home() {
+  useEffect(() => {
+    document.body.style.backgroundColor = config.backgroundColor;
+  }, []);
   return (
     <div className="text-black">
       <NextSeo

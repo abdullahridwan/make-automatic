@@ -1,7 +1,6 @@
 {
-    "backgroundColor": "black",
+    "backgroundColor": "#E7F0DC",
     "primaryColor": "green",
-    "secondaryColor": "#4682b4",
     "appName": "The Pocket Pantry",
     "tagline": "From your phone, to your home. Find food pantries and soup kitchens in NYC fast.",
     "iconimg": "",

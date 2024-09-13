@@ -151,7 +151,7 @@ export default function Footer() {
             <li>
               <a
                 href={config.linkToTermsAndConditions}
-                className="text-md text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
               >
                 Terms of Service
               </a>
@@ -159,14 +159,14 @@ export default function Footer() {
             <li>
               <a
                 href={config.linkToPrivacyPolicy}
-                className="text-md text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
               >
                 Privacy Policy
               </a>
             </li>
           </ul>
           <ul className="flex flex-col mb-2 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <p className="text-gray-400">
+            <p className="text-gray-600">
               Made with ❤️ by LocalDevs.
             </p>
           </ul>
