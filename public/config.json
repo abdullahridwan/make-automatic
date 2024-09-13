@@ -1,11 +1,12 @@
 {
     "author": "Brxs Studios",
-    "backgroundColor": "#E7F0DC",
+    "backgroundColor": "white",
     "primaryColor": "green",
     "appName": "The Pocket Pantry",
     "tagline": "From your phone, to your home. Find food pantries and soup kitchens in NYC fast.",
-    "iconimg": "",
+    "logoimg": "./logo.png",
     "heroimg": "./iphoneMockup.png",
+    "loopsEndpoint": "https://app.loops.so/api/newsletter-form/clybpq46a00hot224b8btu12w",
     "featuresTagline": "Check out our cool features that makes it simple to get the information you want and need!",
     "features": [
         {

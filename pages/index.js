@@ -20,7 +20,7 @@ export default function Home() {
       />
       <Head>
         <title>{config.appName}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={config.logoimg} />
       </Head>
       <Header />
       <Main />

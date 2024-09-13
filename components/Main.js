@@ -1,6 +1,7 @@
 import config from '../public/config.json';
 import Form from './Form';
 import AppButton from './AppButton';
+import NewsletterForm from './Form2'
 import FadeDownOnScroll from './FadeDownOnScroll';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
@@ -12,6 +13,14 @@ export default function Main() {
 
       <div className="max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
+
+          <AnimationOnScroll animateIn="animate__fadeInUp">
+            <div>
+              <img src={config.logoimg} alt="Sample Image" class="object-scale-down h-20 w-20 rounded-lg mb-4" />
+            </div>
+          </AnimationOnScroll>
+
+
           <AnimationOnScroll animateIn="animate__fadeInUp">
             <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-black delay-[300ms] duration-[600ms] taos:translate-y-[-200px] taos:opacity-0"
               data-taos-offset="500">
@@ -100,7 +109,7 @@ export default function Main() {
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__bounceIn">
-              <Form />
+              <NewsletterForm />
             </AnimationOnScroll>
 
           </div>

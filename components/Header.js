@@ -5,9 +5,12 @@ import AppButton from "./AppButton";
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <div className="fixed top-0 w-full z-30 clearNav md:bg-opacity-95 transition duration-300 ease-in-out border-b border-gray-200">
+    <div className="fixed top-0 w-full z-30 clearNav md:bg-opacity-100 transition duration-300 ease-in-out border-b border-gray-200">
       <div className="flex flex-col max-w-6xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div className="flex flex-row items-center justify-between p-4">
+          <div>
+            <img src={config.logoimg} alt="Sample Image" class="object-scale-down h-10 w-10 rounded-lg mr-2" />
+          </div>
           <a
             href="/"
             className="text-lg  rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
